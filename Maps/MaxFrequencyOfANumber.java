@@ -12,7 +12,7 @@ public class MaxFrequencyOfANumber {
 		
 		for (int i=1;i<ary.length;i++)
 		{
-			if(hmap.containsKey(ary[i]))
+			if(hmap.containsKey(ary[i]))//already PResent
 			{
 				//update frequency	 
 				int frequency = hmap.get(ary[i]);
